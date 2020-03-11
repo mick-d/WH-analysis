@@ -1,0 +1,15 @@
+name: ds37
+channels:
+  - defaults
+  - r
+  - conda-forge
+dependencies:
+  - python=3.7
+  - nb_conda_kernels
+  - jupyter
+  - pandas
+  - pylint
+  - seaborn
+  - scikit-learn
+prefix: /home/brainhacker/pyutils/miniconda3/envs/ds37
+

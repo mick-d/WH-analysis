@@ -1,3 +1,6 @@
+import os
+import pandas as pd
+
 def get_WH_data_for_given_year(data_path: str, year: int) -> pd.DataFrame:
     ''' Extract World Happiness data for a given year
     
